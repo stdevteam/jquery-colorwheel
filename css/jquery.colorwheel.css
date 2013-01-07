@@ -1,0 +1,24 @@
+div#wheel {visibility:visible; width: 553px; height: 257px; background: #ffff00;margin-bottom: 10px;}
+
+div#pickset{visibility:visible;width: 140px;}
+div#picks{padding-left: 10px;}
+.picker-item{font-size: 12px;height: 40px;padding: 10px;width: 125px;margin: 5px 0px;cursor: pointer;
+border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+.picker-item-label{margin: 0px 3px 3px 3px;font-size: 12px;display: block;}
+.picker-item-color-cont{width: 90%;background: #ffffff;color: #000000;font-size: 11px !important;padding: 3px;border: none;
+border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 3px;}
+
+div#instructs{visibility:visible; padding-bottom: 30px; width: 90%;}
+
+div#wheel-tips{visibility:visible; padding-right: 5px; xwidth: 90%;}
+
+div#fulllist{visibility:visible;padding-left: 25px; padding-right: 5px; display: none; 
+white-space: nowrap; border-left: 1px dotted grey;}
+
+div#showhide span{text-decoration: underline;}
+
+.btxt {color: #000000;}
+.wtxt {color: #ffffff;}
+
+#color-picker-img{width: 553px;height: 257px; border: 0; xbackground: url('../img/hsvwheel.png');
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hsvwheel.png', sizingMethod='scale');}

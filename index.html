@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery color wheel plugin from STDev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jQuery color wheel plugin from STDev">
+    <meta name="author" content="STDev http://st-dev.com">
+
+    <!-- Le styles -->
+    <link href="css/jquery.colorwheel.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 5px;
+      }
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.colorwheel.min.js"></script>
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function($){    
+			//color wheel
+			$("#wheel").colorWheel({
+				controlsSelector: '.wheel-controls',
+				wheelWidth: 400,
+				pickedColorLables: ['Awesome color 1', 'Awesome color 2', 'Awesome color 3'],
+				initialColors: ['#1144ff', '#ee0022', '#008855'],
+				addInputs: true,
+				addLabels: true,
+				enableKeyboardShortcuts: true,
+				pickContElement: 'div',
+				pickLabelElement: 'strong',
+				pickTextElement: 'span',
+				pickItemTitleText: 'Click to change this color'
+			});
+		});
+	</script>
+  </head>
+
+	<body>
+		<div>
+
+			<h1>jQuery color wheel plugin from STDev</h1>
+			For more info please visit <a href="http://st-dev.com">STDev website</a>
+			<br />
+			<br />
+			<div>
+				<!-- in the middle, the wheel and display -->
+				<div id="simpleWheelCont">
+					<div id="wheel">
+						<a href="javascript:void(0);">
+							<img src="img/hsvwheel.png" alt="" id="color-picker-img" alt="color picker img" />
+						</a>
+					</div>
+					<div class="wheel-controls">
+						<div id="wheel-controls">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div id="instructs">
+					<h3>Instructions</h3>
+					<p>
+						Hover over the wheel to view colors.
+						Hover over the square to change saturation (left to right) and value
+						(bottom to top) of the last hue.
+						Click to choose a web-smart color.
+						Click on a color box e.g. &quot;Awesome color 1&quot; to change an exact color.
+					</p>
+
+					<p>
+						Use the keyboard to rotate hue (if &quot;enableKeyboardShortcuts&quot; option is set to true):<br />
+						<strong style="font-size: 20px;">j</strong> rotates slowly counterclockwise,<br />
+						<strong style="font-size: 20px;">k</strong> rotates quickly clockwise, and<br />
+						<strong style="font-size: 20px;">l</strong> rotates slowly clockwise.
+					</p>
+					<p>
+						Jump to a primary or secondary color (if &quot;enableKeyboardShortcuts&quot; option is set to true):
+						<strong style="font-size: 20px;">r</strong>ed, 
+						<strong style="font-size: 20px;">g</strong>reen, 
+						<strong style="font-size: 20px;">b</strong>lue, 
+						<strong style="font-size: 20px;">c</strong>yan, 
+						<strong style="font-size: 20px;">m</strong>agenta, or
+						<strong style="font-size: 20px;">y</strong>ellow.
+						The <strong>enter</strong> key will also confirm the current color and move to next color box.
+					</p>
+				</div>
+			</div>
+
+		</div>
+  </body>
+</html>
