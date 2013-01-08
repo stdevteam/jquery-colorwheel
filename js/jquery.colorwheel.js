@@ -1,3 +1,6 @@
+/*! jQuery Colorwheel Plugin - v1.0 - 07/01/2013
+* https://github.com/stdevteam/jquery-colorwheel
+* Copyright (c) 2013 STDev (http://st-dev.com); Licensed MIT, GPL */
 (function($) {
     var colorWheelInstanceExist = false,
     handlerIterator = 1;
