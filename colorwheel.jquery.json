@@ -10,9 +10,10 @@
 		"colorchooser",
 		"picker"
     ],
-    "version": "1.0",
+    "version": "1.0.0",
     "author": {
         "name": "STDev",
+		"email": "jquery@st-dev.com",
         "url": "http://st-dev.com/"
     },
 	"maintainers": [
