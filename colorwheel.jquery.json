@@ -3,6 +3,7 @@
     "title": "jQuery Colorwheel",
     "description": "Resizable and scalable color wheel (color chooser) plugin for jQuery.",
     "keywords": [
+		"jquery",
         "color",
         "colorwheel",
 		"colorpicker",
@@ -14,6 +15,13 @@
         "name": "STDev",
         "url": "http://st-dev.com/"
     },
+	"maintainers": [
+        {
+            "name": "STDev",
+            "email": "jquery@st-dev.com",
+            "url": "http://st-dev.com/"
+        }
+    ],
     "licenses": [
         {
             "type": "MIT",
