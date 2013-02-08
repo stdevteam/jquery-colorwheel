@@ -1,3 +1,7 @@
+/*! jQuery Colorwheel Plugin css - v1.0 - 07/01/2013
+* https://github.com/stdevteam/jquery-colorwheel
+* Copyright (c) 2013 STDev (http://st-dev.com); Licensed MIT */
+
 div#wheel {visibility:visible; width: 553px; height: 257px; background: #ffff00;margin-bottom: 10px;}
 
 div#pickset{visibility:visible;width: 140px;}

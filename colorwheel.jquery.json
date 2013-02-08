@@ -1,0 +1,30 @@
+{
+    "name": "colorwheel",
+    "title": "jQuery Colorwheel",
+    "description": "Resizable and scalable color wheel (color chooser) plugin for jQuery.",
+    "keywords": [
+        "color",
+        "colorwheel",
+		"colorpicker",
+		"colorchooser",
+		"picker"
+    ],
+    "version": "1.0",
+    "author": {
+        "name": "STDev",
+        "url": "http://st-dev.com/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "bugs": "https://github.com/stdevteam/jquery-colorwheel/issues",
+    "homepage": "https://github.com/stdevteam/jquery-colorwheel",
+    "docs": "https://github.com/stdevteam/jquery-colorwheel",
+    "download": "https://github.com/stdevteam/jquery-colorwheel/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
